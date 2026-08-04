@@ -43,6 +43,7 @@
     </header>
     <div class="inquiry">
         <main>
+            <!-- create an empty p tag with a class so you can select it -->
             <form id="cannonsCoffeeForm">
 
 
@@ -74,8 +75,8 @@
 
 
                 <div>
-                    <label for="style">Favorite drink:</label>
-                    <select id="style" name="style">
+                    <label for="faveDrink">Favorite drink:</label>
+                    <select id="faveDrink" name="faveDrink">
                         <option value="">--Please choose an option--</option>
                         <option value="hotCoffee">Hot Coffee</option>
                         <option value="frap">Frappuccino</option>
@@ -98,14 +99,16 @@
                     <button type="submit">Submit</button>
                 </div>
             </form>
+            <p id="message"></p>
         </main>
     </div>
 
-    <script src="js/custom-inquiry.js"></script>
+
     <footer>
         <img src="images/logo-footer.png" alt="footer logo" />
         <p>&copy;2023 Cannons Coffee. All rights reserved.</p>
     </footer>
+    <script src="js/custom-inquiry.js"></script>
 </body>
 
 </html>
