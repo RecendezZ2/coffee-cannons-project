@@ -50,7 +50,7 @@ const onFormSubmit = (event) => {
     feedbackText = "No message was included.";
   }
 
-  // Final messaage shown from what the form gathered
+  // Final message shown from what the form gathered
   const sentence = `Thank you, ${name}! We appreciate your interest in ${interestText}; you picked a great choice. Like you, my favorite coffee drink is ${faveDrink}. Your comments are most valued. We will soon contact you at ${email} or ${phone}. ${name}, have a great day!`;
 
   // updates the message and shows the new message
